@@ -28,7 +28,7 @@ const Projects = () => (
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
-            <Img src={p.image} title="Images shown are for illustrative purposes only, as the original product is confidential." />
+            <Img src={p.image}  title="Images shown are for illustrative purposes only, as the original product is confidential." />
             <TitleContent>
               <HeaderThree title>{p.title}</HeaderThree>
               <Hr />

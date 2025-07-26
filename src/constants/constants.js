@@ -55,17 +55,6 @@ export const projects = [
     id: 5,
   },
   {
-    title: "Auth Service",
-    description:
-      "JWT-based authentication microservice for login, signup, and secure token session management.",
-    image:
-      "https://i.ibb.co/B2zTFpYV/2884732.jpg",
-    tags: ["Node.js", "JWT", "MongoDB"],
-    visit: null,
-    source: null,
-    id: 6,
-  },
-  {
     title: "Quiz Backend",
     description:
       "Backend API for a quiz platform including role-based access, question bank, scoring, and performance analytics.",
@@ -75,6 +64,17 @@ export const projects = [
     visit: null,
     source: null,
     id: 7,
+  },
+  {
+    title: "Auth Service",
+    description:
+      "JWT-based authentication microservice for login, signup, and secure token session management.",
+    image:
+      "https://i.ibb.co/B2zTFpYV/2884732.jpg",
+    tags: ["Node.js", "JWT", "MongoDB"],
+    visit: null,
+    source: null,
+    id: 6,
   },
   {
     title: "Divine Studio Site",

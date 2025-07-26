@@ -3,9 +3,15 @@ import styled from 'styled-components';
 export const Img = styled.img`
   width:400px;
   height: 260px;
-  height:100%;
   object-fit: cover;
   overflow: hidden;
+  @media (max-width: 767px) {
+    width: 266px;
+    height: 216px;
+    object-fit: cover;
+    overflow: hidden;
+    padding-top: 15px;
+}
 `
 
 export const GridContainer = styled.section`
