@@ -68,15 +68,14 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         Hi, I’m Sandip Ghanadiya, a passionate and result-driven Frontend Developer with over 4+ years of professional experience in building scalable, performant, and user-centric web applications.
-
-My technical expertise includes modern JavaScript frameworks like Vue.js, Nuxt.js, React.js, and Svelte, with a strong foundation in HTML, CSS, Tailwind, and SCSS. I’ve led frontend development on several eCommerce and enterprise-level projects, focusing not only on creating beautiful UIs but also on ensuring optimized performance, accessibility, and SEO best practices.
-
-I take pride in writing clean, modular, and maintainable code, and I’m always aligned with the latest frontend trends and tooling. I’ve worked closely with cross-functional teams and have received great client feedback for my attention to detail, timely delivery, and problem-solving approach.
+      </SectionText>
+      <SectionText>My technical expertise includes modern JavaScript frameworks like Vue.js, Nuxt.js, React.js, and Svelte, with a strong foundation in HTML, CSS, Tailwind, and SCSS. I’ve led frontend development on several eCommerce and enterprise-level projects, focusing not only on creating beautiful UIs but also on ensuring optimized performance, accessibility, and SEO best practices.</SectionText>
+      <SectionText>
+        I take pride in writing clean, modular, and maintainable code, and I’m always aligned with the latest frontend trends and tooling. I’ve worked closely with cross-functional teams and have received great client feedback for my attention to detail, timely delivery, and problem-solving approach.
 
 Beyond technical skills, I believe in continuously learning and sharing knowledge with peers, and I'm always excited to bring innovation and leadership to the frontend space.
-
-I’m now looking for a role where I can contribute my experience, grow as a tech leader, and help build meaningful digital products.
       </SectionText>
+      <SectionText> I’m now looking for a role where I can contribute my experience, grow as a tech leader, and help build meaningful digital products.</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (

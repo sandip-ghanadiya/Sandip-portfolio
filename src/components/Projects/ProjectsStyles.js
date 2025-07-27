@@ -5,12 +5,13 @@ export const Img = styled.img`
   height: 260px;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 10px;
   @media (max-width: 767px) {
     width: 266px;
     height: 216px;
     object-fit: cover;
     overflow: hidden;
-    padding-top: 15px;
+    margin-top: 15px;
 }
 `
 
@@ -34,14 +35,23 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
+  &:hover {
+		transform: translateY(-8px);
+    border-color: #9cc9e3;
+    box-shadow: 0 20px 40px rgba(0, 123, 255, 0.1);
+	}
 `;
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  font-weight: 500;
+  color: #9cc9e3;
+  margin-top: 25px;
 
 `;
 

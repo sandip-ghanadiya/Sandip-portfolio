@@ -24,7 +24,7 @@ export const projects = [
   {
     title: "Appointment Module",
     description:
-      "A scheduling module with calendar-based time slot booking, availability tracking, and automatic reminders.",
+      "A scheduling module with calendar-based time slot display, appointment tracking, booked appointment, appointment listing & filtering options.",
     image:
       "https://i.ibb.co/5XBJ4SPy/4871715.jpg",
     tags: ["Svelte", "Nest.js", "PostgreSQL"],
@@ -90,7 +90,7 @@ export const projects = [
   {
     title: "Donn Clothing",
     description:
-      "An e-commerce platform for a fashion brand with product listing, cart functionality, and secure checkout.",
+      "An e-commerce platform for a fashion brand with product listing, Filtering,  cart functionality, and secure checkout.",
     image:
       "https://i.ibb.co/b5fw2Fwj/583.jpg",
     tags: ["Vue.js", "VueStoreFront", "Stripe"],

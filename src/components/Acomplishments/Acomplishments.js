@@ -11,7 +11,7 @@ import axios from "axios";
 const defaultData = [
   { number: 5, text: "Years Exeperience", isCOunt: true },
   { number: 10, text: "Projects/Modules", isCOunt: true },
-  { number: 1000, text: "Commit", isCOunt: true },
+  { number: "1k", text: "Commit", isCOunt: true },
   { number: "100%", text: "OnTime Project Delivery", isCOunt: false },
   { number: "Winner", text: "Company Hackathon", isCOunt: false },
   { number: "Winner", text: "Science Fair Project", isCOunt: false },
@@ -42,7 +42,7 @@ const Acomplishments = () => {
       <Boxes>
         {data.map((card, index) => (
           <Box key={index}>
-            <BoxNum>{`${card.number} ${card.isCOunt ? '+' : ''}`}</BoxNum>
+            <BoxNum>{`${card.number}${card.isCOunt ? '+' : ''}`}</BoxNum>
             <BoxText>{card.text}</BoxText>
           </Box>
         ))}
