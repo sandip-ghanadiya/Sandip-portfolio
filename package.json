@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "SET NODE_OPTIONS=--openssl-legacy-provider &&  next dev",
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build && next export",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build",
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && next start",
     "export": "SET NODE_OPTIONS=--openssl-legacy-provider && next export"
   },
@@ -17,5 +17,8 @@
     "react-icons": "^4.2.0",
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "cross-env": "^10.0.0"
   }
 }
