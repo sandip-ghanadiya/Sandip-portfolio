@@ -65,6 +65,7 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         Hi, I’m Sandip Ghanadiya, a passionate and result-driven Frontend Developer with over 4+ years of professional experience in building scalable, performant, and user-centric web applications.
