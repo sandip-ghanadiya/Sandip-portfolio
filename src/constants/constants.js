@@ -5,7 +5,7 @@ export const projects = [
       "An SEO-focused grid module for analyzing keyword performance across geographic zones, helping businesses optimize local targeting",
     image:
       "https://i.ibb.co/YBYVFYpr/2996609.jpg",
-    tags: ["Svelte", "Node.js", "MongoDB"],
+    tags: ["Svelte.js", "React.js","Node.js", "MongoDB"],
     visit: null,
     source: null,
     id: 1,
@@ -16,7 +16,7 @@ export const projects = [
       "A custom form builder module that supports dynamic fields, conditional logic, and validation for building admin and survey tools.",
     image:
       "https://i.ibb.co/dwvxQdTp/20943852.jpg",
-    tags: ["Vanila JS", "JSON parser", "svelte-dnd-action"],
+    tags: ["Vanila JS", "JSON parser", "dnd-action"],
     visit: null,
     source: null,
     id: 2,
@@ -38,7 +38,7 @@ export const projects = [
       "Developed a call log feature with waveform audio playback, searchable call history, filtering options, and pagination.",
     image:
       "https://i.ibb.co/23rzV1wP/6225077.jpg",
-    tags: ["Svelte", "Nest.js", "Web Audio API", "wavesurfer.js"],
+    tags: ["Svelte", "Web Audio API", "wavesurfer.js"],
     visit: null,
     source: null,
     id: 4,
@@ -49,7 +49,7 @@ export const projects = [
       "Module to monitor and manage step-by-step user onboarding workflows across multiple services or platforms.",
     image:
       "https://i.ibb.co/RptTYSjc/process-optimization-5.jpg",
-    tags: ["Svelte", "Nest"],
+    tags: ["React.js","Redux","Nest.js","GraphQL"],
     visit: null,
     source: null,
     id: 5,
@@ -60,7 +60,7 @@ export const projects = [
       "Backend API for a quiz platform including role-based access, question bank, scoring, and performance analytics.",
     image:
       "https://i.ibb.co/mVLVkNqK/Media.jpg",
-    tags: ["Node.js", "MongoDB", "REST API"],
+    tags: ["React.js","Node.js", "MongoDB", "REST API"],
     visit: null,
     source: null,
     id: 7,
@@ -82,7 +82,7 @@ export const projects = [
       "A responsive portfolio website built for a creative studio to highlight services, team, and past projects.",
     image:
       "https://i.ibb.co/SXc0KJ5s/6658658.jpg",
-    tags: ["Wordpress", "Go Daddy"],
+    tags: ["Wordpress", "Theme Customization"],
     visit: null,
     source: null,
     id: 8,
@@ -93,7 +93,7 @@ export const projects = [
       "An e-commerce platform for a fashion brand with product listing, Filtering,  cart functionality, and secure checkout.",
     image:
       "https://i.ibb.co/b5fw2Fwj/583.jpg",
-    tags: ["Vue.js", "VueStoreFront", "Stripe"],
+    tags: ["Vue.js", "NUXT.js","VueStoreFront", "Stripe"],
     visit: null,
     source: null,
     id: 9,
@@ -104,22 +104,22 @@ export const projects = [
       "A book-focused e-commerce platform supporting product listings, search, cart, and a user-friendly shopping experience.",
     image:
       "https://i.ibb.co/8gNGRd2B/4891721-2.jpg",
-    tags: ["Vue.js", "VSF", "Paypal", "Design Revamping"],
+    tags: ["Vue.js", "VSF", "Paypal", "Product Revamp"],
     visit: null,
     source: null,
     id: 10,
   },
-  {
-    title: "BMS (BookMyShow Clone)",
-    description:
-      "A full-featured movie ticket booking platform with movie schedules, seat selection, and payment gateway integration.",
-    image:
-      "https://i.ibb.co/k2MDmvwP/download-4.png",
-    tags: ["React.js","MySQL","NodeJS","Express.js"],
-    visit: null,
-    source: null,
-    id: 11,
-  },
+  // {
+  //   title: "BMS (BookMyShow Clone)",
+  //   description:
+  //     "A full-featured movie ticket booking platform with movie schedules, seat selection, and payment gateway integration.",
+  //   image:
+  //     "https://i.ibb.co/k2MDmvwP/download-4.png",
+  //   tags: ["React.js","MySQL","NodeJS","Express.js"],
+  //   visit: null,
+  //   source: null,
+  //   id: 11,
+  // },
 ];
 
 

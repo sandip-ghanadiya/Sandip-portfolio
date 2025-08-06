@@ -18,7 +18,7 @@ const Hero = (props) => (
           I'm Sandip Ghanadiya
         </SectionTitle>
         <SectionText>
-         With over 4+ years of experience in the IT industry, I have developed expertise in leading and managing technology-specific teams to deliver innovative solutions. I specialize in handling team dynamics, distributing work efficiently, and ensuring project milestones are accurately estimated and executed. I am actively involved in scope preparation, task assignments, follow-ups, and troubleshooting to ensure seamless project delivery.
+         With over 5+ years of experience in the IT industry, I have developed expertise in leading and managing technology-specific teams to deliver innovative solutions. I specialize in handling team dynamics, distributing work efficiently, and ensuring project milestones are accurately estimated and executed. I am actively involved in scope preparation, task assignments, follow-ups, and troubleshooting to ensure seamless project delivery.
         </SectionText>
         <div
           style={{

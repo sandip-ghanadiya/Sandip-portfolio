@@ -32,7 +32,7 @@ const Technologies = () => (
           <ListParagraph>
             Experience with Microfrontend
             <br />
-            Svelte.js, Vue.js, NUXT, React.js, Tailwind, DaisyUI
+            Svelte.js, React.js, Vue.js, NUXT,  Tailwind, DaisyUI
             <br />
             HTML5, CSS3, JavaScript & Storybook
           </ListParagraph>
